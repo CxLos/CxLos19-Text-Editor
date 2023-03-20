@@ -26,6 +26,8 @@ const initdb = async () =>
   };
 
   // CRUD
+
+  //POST
   export const postDb = async (content) => {
 
     console.log('Post to the base');
@@ -37,6 +39,7 @@ const initdb = async () =>
     console.log('🚀 - data saved to the database', result);
   };
 
+  // GET ALL
   export const getDb = async () => {
 
     console.log('GET all from the database');
@@ -49,6 +52,7 @@ const initdb = async () =>
     return result;
   };
 
+  //GET 1
   export const getOneDb = async (id) => {
 
     console.log('GET from the database');
@@ -60,6 +64,8 @@ const initdb = async () =>
     console.log('result.value', result);
     return result;
   };
+
+  // DELETE
   export const deleteDb = async (id) => {
 
     console.log('DELETE from the database', id);
@@ -72,6 +78,7 @@ const initdb = async () =>
     return result;
   };
 
+  // PUT
   export const putDb = async (id, content) => {
 
     console.log('PUT to the database');
