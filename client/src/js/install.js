@@ -2,9 +2,9 @@ const butInstall = document.getElementById('buttonInstall');
 
 window.addEventListener('beforeinstallprompt', (event) => {
 
-  window. deferredPrompt = event;
+  window.deferredPrompt = event;
 
-  butInstall.removeAttribute('hidden');
+  butInstall.classlist.toggle('hidden', false);
     
 });
 
@@ -20,19 +20,19 @@ butInstall.addEventListener('click', async () => {
 
   const result = await promptEvent.userChoice;
 
-  if (result.outcome === 'accepted') {
+  // if (result.outcome === 'accepted') {
 
-    console.log('User accepted the A2HS prompt', result);
+  //   console.log('User accepted the A2HS prompt', result);
 
-  } else {
+  // } else {
 
-    console.log('User dismissed the A2HS prompt', result);
+  //   console.log('User dismissed the A2HS prompt', result);
 
-  }
+  // }
 
   window.deferredPrompt = null;
 
-  butInstall.setAttribute('hidden', true);
+  butInstall.classList.toggle('hidden', true);
 
 });
 

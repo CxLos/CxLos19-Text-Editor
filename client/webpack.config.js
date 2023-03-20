@@ -1,8 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const { GenerateSW } = require('workbox-webpack-plugin');
+const path = require('path');
 
 module.exports = () => {
   
@@ -11,7 +11,8 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      cards: './src/js/cards.js'
+      header: './src/js/header.js',
+      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -23,7 +24,7 @@ module.exports = () => {
 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'CxLos19 Text Editor',
       }),
      
       new InjectManifest({
@@ -34,9 +35,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        name: 'Text Editor',
+        short_name: 'JATE',
+        description: 'Edit texts on or offline!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: './',

@@ -32,7 +32,7 @@ Repository
 [](https://github.com/CxLos/CxLos) 
 
 Heroku
-[CxLos14 Blog Site](https://cxlos1-.herokuapp.com)
+[](https://cxlos1-.herokuapp.com)
 
 Image
 ![](./assets/images/Screenshot-.png)
