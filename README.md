@@ -1,14 +1,9 @@
 # CxLos19 Text Editor
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+```
+The motivation in developing this project was to create a text editing app that can be used on or offline. I built this so that I can write down some handy notes and view them later. This app is meant to solve the issue of keeping track of notes wherever you are regardless of internet connection. In constructing this app, I learned a lot, primarily with service workers and manifest.json. I learned how they work together in progressive web apps to make an application more technologically up to date and perfom at higher quality.
+```
 ## Table of Contents 
 	
 - [Installation](#installation)
@@ -27,7 +22,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 [CxLos19 Text Editor](https://cxlos19-text-editor.herokuapp.com/)
 
-![Screenshot](./assets/images/Screenshot-141941.png)
+![Screenshot](./Assets/images/Screenshot-141941.png)
 
 ## Badges
 
