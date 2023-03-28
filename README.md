@@ -25,17 +25,9 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Usage
 
-application
-[](https://cxlos.github.io/Cxlos/)
+[CxLos19 Text Editor](https://cxlos19-text-editor.herokuapp.com/)
 
-Repository
-[](https://github.com/CxLos/CxLos) 
-
-Heroku
-[](https://cxlos1-.herokuapp.com)
-
-Image
-![](./assets/images/Screenshot-.png)
+![Screenshot](./assets/images/Screenshot-141941.png)
 
 ## Badges
 
